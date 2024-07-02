@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: yourapartment
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: "jdbc:mysql://web.blbt.app:3306/apartment?autoReconnect=true&useUnicode=true&serverTimezone=Asia/Seoul&characterEncoding=utf8"
+    username: team1
+    password: "Ballbot3451!"
+  jpa:
+    database: mysql
+    hibernate:
+      ddl-auto: update
+    show_sql: true
+  chatgpt:
+    accessKey: "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"

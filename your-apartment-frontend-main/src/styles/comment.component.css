@@ -1,0 +1,41 @@
+.comment-wrapper {
+  
+  display: flex;
+  flex-direction: column;
+  margin: 8px 15px 0 15px;
+  cursor: pointer;
+  border-bottom: 1px solid #3e3e3e;
+  background-color: black;
+}
+
+.comment-header {
+  display: flex;
+}
+
+.comment-header p {
+  margin-bottom: 2px;
+  font-size: 15px;
+}
+
+.comment-header p:nth-child(1) {
+  color: white;
+  font-weight: 800;
+}
+
+.comment-header p:nth-child(3) ,.comment-header p:nth-child(2){
+  color: white;
+  font-weight: 300;
+  font-size: 12px;
+  margin-left: 1px;
+  margin-bottom: 8px;
+
+}
+.comment-header p:nth-child(2){
+  margin-top: 2px;
+}
+
+.comment-wrapper #content {
+  color: white;
+  font-weight: 400;
+  font-size: 15px;
+}

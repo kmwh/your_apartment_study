@@ -1,0 +1,48 @@
+#top{
+  width: 100%;
+  height: 70px;
+  background-color: black;
+  border: 0.5px solid white;
+  display: flex;
+  justify-content: center;
+}
+
+#sortBy_div{
+  width: 80%;
+  height: 100%;
+  
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+#sortBy_div p{
+  cursor: pointer;
+  font-size: 25px;
+  color: white;
+  
+}
+
+#sortBy_div p:hover{
+  color: rgb(109, 175, 255);
+}
+#mid{
+  width: 100%;
+  height: 100%;
+  overflow-y: auto;
+  overflow-x: hidden;
+ 
+}
+#mid::-webkit-scrollbar{
+  width: 0;
+  background-color: black;
+}
+
+#main_mapper {
+  display: flex;
+  width: 102%;
+  height: 100%;
+}
+.container{
+  width: 100%;
+  height: 100%;
+}

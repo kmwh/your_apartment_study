@@ -1,0 +1,69 @@
+@media screen and (max-width: 770px) {
+
+  /* 모바일 */
+  header {
+    width: 100%;
+    height: 56px;
+    display: flex;
+    border-bottom: 1px solid #3e3e3e;
+    border-right: 1px solid #3e3e3e;
+    border-left: 1px solid #3e3e3e;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .order-mapper {
+    flex: 1;
+    cursor: pointer;
+  }
+
+  .order-mapper>p {
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1rem;
+    font-weight: 500;
+    margin: 0;
+  }
+
+  .order-selected {
+    text-decoration: underline orange !important;
+    text-underline-offset: 16px;
+    text-decoration-thickness: 3px !important;
+    /* !important 추가 */
+  }
+}
+
+@media screen and (min-width: 771px) {
+
+  /* 컴퓨터 혹은 태블릿 화면 */
+  header {
+    width: 100%;
+    height: 56px;
+    display: flex;
+    border-bottom: 1px solid #3e3e3e;
+    border-right: 1px solid #3e3e3e;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .order-mapper {
+    flex: 1;
+    cursor: pointer;
+  }
+
+  .order-mapper>p {
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.125rem;
+    margin: 0;
+  }
+
+  .order-selected {
+    text-decoration: underline orange !important;
+    text-underline-offset: 16px;
+    text-decoration-thickness: 3px !important;
+    /* !important 추가 */
+  }
+}

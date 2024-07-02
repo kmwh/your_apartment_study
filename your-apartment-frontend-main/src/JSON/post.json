@@ -1,0 +1,80 @@
+{
+    "totalSize": 5,
+    "data": [
+        {
+            "_id": 6,
+            "nickname": "아기사자2",
+            "apartmentName": {
+                "_id": "A10025458",
+                "apartmentName": "초지역메이저타운푸르지오파크단지(초지역메이저타운푸르지오파크단지)",
+                "regionName": "초지동",
+                "address": "경기도 안산시 단원구 원초로 90"
+            },
+            "gptScore": 94.0367,
+            "isLiked": false,
+            "likeCount": 0,
+            "commentCount": 0,
+            "createdAt": "2024-05-30"
+        },
+        {
+            "_id": 5,
+            "nickname": "아기사자2",
+            "apartmentName": {
+                "_id": "A10022864",
+                "apartmentName": "별하신도시하늘채아파트",
+                "regionName": "세교리",
+                "address": "충청남도 아산시 세교길 14"
+            },
+            "gptScore": 67.2734,
+            "isLiked": false,
+            "likeCount": 0,
+            "commentCount": 0,
+            "createdAt": "2024-05-30"
+        },
+        {
+            "_id": 4,
+            "nickname": "아기사자2",
+            "apartmentName": {
+                "_id": "A10022742",
+                "apartmentName": "내포신도시 모아미래도 메가시티1차 아파트",
+                "regionName": "신경리",
+                "address": "충청남도 홍성군 신대로 135"
+            },
+            "gptScore": 56.3684,
+            "isLiked": false,
+            "likeCount": 0,
+            "commentCount": 0,
+            "createdAt": "2024-05-30"
+        },
+        {
+            "_id": 3,
+            "nickname": "아기사자2",
+            "apartmentName": {
+                "_id": "A10022735",
+                "apartmentName": "충북혁신도시동일하이빌파크테라스",
+                "regionName": "두촌리",
+                "address": "충청북도 진천군 대하로 194"
+            },
+            "gptScore": 14.6391,
+            "isLiked": false,
+            "likeCount": 0,
+            "commentCount": 0,
+            "createdAt": "2024-05-30"
+        },
+        {
+            "_id": 2,
+            "nickname": "아기사자2",
+            "apartmentName": {
+                "_id": "A10022695",
+                "apartmentName": "내포신도시이지더원센트럴에듀아파트",
+                "regionName": "목리",
+                "address": ""
+            },
+            "gptScore": 42.235,
+            "isLiked": true,
+            "likeCount": 1,
+            "commentCount": 1,
+            "createdAt": "2024-05-30"
+        }
+    ]
+}

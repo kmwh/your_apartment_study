@@ -1,0 +1,115 @@
+
+
+@media screen and (max-width:400px) {
+  body{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+     background-color: black;
+    }
+    body::-webkit-scrollbar{
+      width: 0px;
+      background-color: black;
+    }
+    body::-webkit-scrollbar-thumb{
+      width: 0px;
+      background-color: black;
+    }
+    
+    #page_title{
+      position: fixed;
+      left: 80px;
+      top: 80px;
+      color: white;
+    }
+    #page_title h1:last-child{
+      color: #B6B6B6;
+    }
+    #root{
+      
+      
+      width: 102vw;
+      height: 100%;
+      background-color: black;
+      
+    
+    }
+    
+}
+
+@media screen and (max-width:770px) {
+  body{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+     background-color: black;
+    }
+    body::-webkit-scrollbar{
+      width: 0px;
+      background-color: black;
+    }
+    body::-webkit-scrollbar-thumb{
+      width: 0px;
+      background-color: black;
+    }
+    
+    #page_title{
+      position: fixed;
+      left: 80px;
+      top: 80px;
+      color: white;
+    }
+    #page_title h1:last-child{
+      color: #B6B6B6;
+    }
+    #root{
+      
+      
+      width: 115vw;
+      height: 100%;
+      background-color: black;
+      
+    
+    }
+    
+}
+
+
+
+@media screen and (min-width:770px) {
+  body{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+     background-color: black;
+    }
+    body::-webkit-scrollbar{
+      width: 0px;
+      background-color: black;
+    }
+    
+    #page_title{
+      position: fixed;
+      left: 80px;
+      top: 80px;
+      color: white;
+    }
+    #page_title h1:last-child{
+      color: #B6B6B6;
+    }
+    #root{
+      
+      width: 100%;
+      height: 100%;
+      background-color: black;
+      
+    
+    }
+    
+}
+

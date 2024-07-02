@@ -1,0 +1,156 @@
+#delete_div{
+  width: 100%;
+  height: 160px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#delete_form input{
+  outline: none;
+  border: 0px;
+  border-bottom: 0.5px solid #8f8f8f;
+  background-color: black;
+  width: 200px;
+  height: 35px;
+  font-size: 15px;
+  color: white;
+}
+#delete_form button{
+  width: 80px;
+  height: 30px;
+  margin: 0px 10px;
+  border-radius: 10px;
+  border: none;
+  font-size: 15px;
+  cursor: pointer;
+}
+#delete_yes{
+  background-color: rgb(255, 98, 101);
+  color: white;
+  transition: 0.1s ease-in-out;
+
+}
+#delete_yes:hover{
+  background-color: rgb(187, 71, 73);
+}
+#delete_no{
+  background-color: white;
+  color: black;
+  transition: 0.1s ease-in-out;
+}
+#delete_no:hover{
+  background-color: rgb(182, 182, 182);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+#nickname{
+  margin-bottom: 0;
+  font-size: 25px;
+}
+#post_contents > p{
+  padding: 10px;
+  border-bottom: 0.5px solid white;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  font-size: 15px;
+  padding-left: 0px;
+  padding-bottom: 15px;
+
+}
+#post_contents h2{
+  width: 90%;
+}
+#post{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    width: 100%;
+    height: auto;
+    border-bottom: 0.5px solid white;
+}
+#bin{
+  position: absolute;
+  right: 30px;
+  top: 38px;
+  width: 25px;
+  height: 25px;
+  cursor: pointer;
+}
+
+#post_contents{
+    padding: 10px 0px;
+    width: 80%;
+    height: 100%;
+    position: relative;
+}
+
+#heart_comment{
+  display: flex;
+  align-items: center;
+  margin-top: 12px;
+
+}
+#heart.icon {
+  cursor: pointer;
+  width: 23px;
+  height: 23px;
+}
+
+#countHeart,
+#countComment {
+  margin: 0 12px; /* 숫자 간의 간격을 추가 */
+}
+#input_comment_div{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    
+}
+#input_comment_div button{
+  margin-top: 10px;
+    width: 20%;
+    height: 40px;
+    border-radius: 8px;
+    background-color: #0d6efd;
+    border: none;
+    color: white;
+    font-size: 15px;
+    transition: 0.15s ease-in-out;
+}
+#input_comment_div button:hover{
+  background-color:#0c5fdb ;
+}
+#input_comment{
+  margin-right: 10px;
+  margin-top: 10px;
+    font-size: 18px;
+    color: white;
+    outline: none;
+    border: none;
+    border-bottom: 0.5px solid white;
+    background-color: black;
+    height: 100%;
+    width: 100%;
+    transition:  0.2s ease-in-out;
+    
+}
+#input_comment:focus{
+  border-bottom: 0.5px solid orange;
+}
+

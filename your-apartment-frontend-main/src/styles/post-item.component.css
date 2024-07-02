@@ -1,0 +1,185 @@
+
+
+@media screen and (max-width:770px) {
+  .post-item-container {
+    display: flex;
+    flex-direction: column;
+    padding: 16px 24px 16px 24px;
+    border-bottom: 1px solid #3e3e3e;
+    
+  }
+  #apartment-name{
+    margin-top: 15px;
+  }
+  
+  .post-header {
+    margin-left: 5px;
+    display: flex;
+  }
+  
+  .post-header p {
+    margin-bottom: 2px;
+    
+  }
+  
+  .post-header p:nth-child(1) {
+    color: white;
+    font-weight: 500;
+    font-size: 15px;
+  }
+  
+  .post-header p:nth-child(2), p:nth-child(3) {
+    color: #d9d9d9;
+    font-size: 13px;
+    margin-top: 3px;
+  }
+  
+  #apartment-name {
+    margin-left: 5px;
+    font-size: 1rem;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  #gpt-score {
+    margin-left: 5px;
+    font-weight: 500;
+  }
+  
+  #gpt-score span {
+    color: #f1c40f;
+  }
+  
+  .like-comment-delete-wrapper{
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    margin-left: 5px;
+  }
+  #delete-icon-wrapper{
+    position: absolute;
+    right: 20px;
+    
+  }
+  
+  #delete-icon-wrapper p{
+    font-size: 15px;
+  }
+  #like-icon-wrapper{
+      margin-right: 20px;
+  }
+ 
+  .icon-text-wrapper {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  .icon-text-wrapper p {
+    
+    font-size: 18px;
+    color: white;
+    margin: 0 0 0 8px;
+    font-weight: 500;
+    
+  }
+  
+  .icon-text-wrapper img {
+    width: 18px;
+    height: 18px;
+  }
+}
+
+
+
+@media screen and (min-width:770px) {
+  .post-item-container {
+    display: flex;
+    flex-direction: column;
+    padding: 16px 24px 16px 24px;
+    border-bottom: 1px solid #3e3e3e;
+   
+  }
+  
+  
+  .post-header {
+    display: flex;
+  }
+  
+  .post-header p {
+    margin-bottom: 2px;
+  }
+  
+  .post-header p:nth-child(1) {
+    color: white;
+    font-weight: bold;
+  }
+  
+  .post-header p:nth-child(2), p:nth-child(3) {
+    color: #d9d9d9;
+  }
+  
+  #apartment-name {
+    margin-top: 15px;
+    font-size: 1.125rem;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  #gpt-score {
+    font-weight: bold;
+  }
+  
+  #gpt-score span {
+    color: #f1c40f;
+  }
+  
+  .like-comment-delete-wrapper{
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+  
+  }
+  #delete-icon-wrapper{
+    position: absolute;
+    right: 20px;
+  }
+ 
+  #like-icon-wrapper{
+      margin-right: 20px;
+  }
+  #like-icon-wrapper img{
+    cursor: pointer;
+  }
+  #text-icon-wrapper img{
+    cursor: pointer;
+  }
+ 
+  .icon-text-wrapper {
+    display: flex;
+    align-items: center;
+    
+  }
+  
+  .icon-text-wrapper p {
+    
+    font-size: 20px;
+    color: white;
+    margin: 0 0 0 8px;
+    font-weight: bold;
+    
+  }
+  
+  .icon-text-wrapper img {
+    width: 20px;
+    height: 20px;
+  }
+  
+}
+

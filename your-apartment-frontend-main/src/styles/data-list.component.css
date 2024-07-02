@@ -1,0 +1,75 @@
+@media screen and (max-width:770px) {
+  .datalist-wrapper {
+    display: flex;
+    flex-direction: column;
+    background: black;
+    margin: 0 24px 0 24px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    color: white;
+    border-bottom: 1px solid #3e3e3e;
+    cursor: pointer;
+  }
+  
+  .datalist-wrapper > h4 {
+    font-size: 1.125rem;
+    font-weight:500;
+    margin: 0;
+    font-size: 16px;
+  }
+  
+  .apartment-region-wrapper {
+    display: flex;
+  }
+  
+  .apartment-region-wrapper p {
+    flex: 1;
+    font-size: 0.825rem;
+    color: #a4a4a4;
+    margin: 0;
+    max-width: 350px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+}
+
+
+
+
+
+@media screen and (min-width:770px) {
+  .datalist-wrapper {
+    display: flex;
+    flex-direction: column;
+    background: black;
+    margin: 0 24px 0 24px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    color: white;
+    border-bottom: 1px solid #3e3e3e;
+    cursor: pointer;
+  }
+  
+  .datalist-wrapper > h4 {
+    font-size: 1.125rem;
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  .apartment-region-wrapper {
+    display: flex;
+  }
+  
+  .apartment-region-wrapper p {
+    flex: 1;
+    font-size: 0.825rem;
+    color: #a4a4a4;
+    margin: 0;
+    max-width: 350px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+}
+
